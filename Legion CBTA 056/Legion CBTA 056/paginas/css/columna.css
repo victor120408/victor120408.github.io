@@ -1,0 +1,27 @@
+Body {
+    Font-family: Arial, sans-serif;
+}
+
+Table {
+    Width: 50%;
+    Border-collapse: collapse;
+    Margin: 20px 0;
+}
+
+Th, td {
+    Border: 1px solid #ddd;
+    Padding: 8px;
+}
+
+Th {
+    Background-color: #f2f2f2;
+    Text-align: left;
+}
+
+Tr:nth-child(even) {
+    Background-color: #f9f9f9;
+}
+
+Tr:hover {
+    Background-color: #ddd;
+}
